@@ -1,16 +1,5 @@
-# Toradex oe-core Setup
+# Maivin Yocto BSP
 
-To simplify installation we provide a manifest for the repo tool which manages
-the different git repositories and the used versions.
-[more on repo](https://code.google.com/p/git-repo/)
+This project hosts the repo manifests for building the Maivin Yocto BSP (including Torizon for Maivin).  It is based on the [Toradex Manifests][1] with updates to support the Maivin AI Vision Starter Kit and DeepView AI Middleware.
 
-This manifest allows setting up TorizonCore or Toradex Reference Images.
-
-## Getting Started and Documentation TorizonCore
-
-- [Step-by-step Getting Started Guide](https://developer.toradex.com/getting-started)
-- [Torizon Software Page](https://developer.toradex.com/software/torizon)
-
-## Getting Started and Documentation Reference Images
-
-- [OpenEmbedded (core)](https://developer.toradex.com/knowledge-base/board-support-package/openembedded-(core))
+[1]: https://git.toradex.com/cgit/toradex-manifest.git

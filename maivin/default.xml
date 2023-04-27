@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="tdxref/default.xml"/>
+
+    <remote alias="repo" fetch="https://github.com/MaivinAI" name="maivin"/>
+    <remote alias="repo" fetch="https://github.com/DeepviewML" name="deepview"/>
+
+    <project name="meta-maivin" path="layers/meta-maivin" remote="maivin" revision="f0783160654d36d6356869f92cef20c93666018a"/>
+    <project name="meta-deepview" path="layers/meta-deepview" remote="deepview" revision="364fb9572f4c91035df2bee22be9d4804b6255fe"/>
+</manifest>
